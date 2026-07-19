@@ -1,0 +1,11 @@
+pre-commit:
+  commands:
+    lint-and-format:
+      glob: "*.rs"
+      run: just format-and-lint
+      stage_fixed: true
+
+pre-push:
+  commands:
+    test-and-build:
+      run: just test-and-build
