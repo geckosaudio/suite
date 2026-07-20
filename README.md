@@ -2,9 +2,9 @@
 
 # Geckos Audio Suite
 
-[![Actions](https://shieldcn.dev/github/geckosaudio/suite/ci.svg?variant=secondary&font=space-grotesk)](https://github.com/geckosaudio/suite/actions)
-[![License](https://shieldcn.dev/github/geckosaudio/suite/license.svg?variant=secondary&font=space-grotesk)](https://github.com/geckosaudio/suite)
+[![Actions](https://shieldcn.dev/github/geckosaudio/plugins/ci.svg?variant=secondary&font=space-grotesk)](https://github.com/geckosaudio/plugins/actions)
+[![License](https://shieldcn.dev/github/geckosaudio/plugins/license.svg?variant=secondary&font=space-grotesk)](https://github.com/geckosaudio/plugins)
 ![Rust](https://shieldcn.dev/badge/Rust.svg?variant=secondary&font=space-grotesk&logo=rust)
-[![Codecov](https://shieldcn.dev/codecov/github/geckosaudio/suite/main.svg?variant=branded&font=space-grotesk)](https://codecov.io/gh/geckosaudio/suite)
+[![Codecov](https://shieldcn.dev/codecov/github/geckosaudio/plugins/main.svg?variant=branded&font=space-grotesk)](https://codecov.io/gh/geckosaudio/plugins)
 
 </div>
