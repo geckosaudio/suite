@@ -61,3 +61,22 @@ truce::plugin! {
 // (a no-op otherwise). Wrap a driver run in `assert_no_audio_alloc` to
 // fail a test if `process` ever allocates. See the audio-testing guide.
 truce::enable_rt_paranoid!();
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn passthrough() {
+        use std::time::Duration;
+        use truce_test::{InputSource, assertions, driver};
+
+        let result = driver!(Plugin)
+            .duration(Duration::from_millis(100))
+            .input(InputSource::Constant(0.5))
+            .run();
+        assertions::assert_nonzero(&result);
+        assertions::assert_no_nans(&result);
+        assertions::assert_peak_below(&result, 1.0);
+    }
+}

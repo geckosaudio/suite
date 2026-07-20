@@ -23,6 +23,9 @@ clap-sys = "0.5"
 # truce-aax = { version = "6.3" }
 # truce-vst2 = { version = "6.3" }
 
+truce-test = { version = "6.3.0" }
+truce-driver = { version = "6.3.0" }
+
 # Custom profile for `cargo truce install --shell`. The shell-mode
 # build lands at `target/shell/lib<crate>.dylib`, independent of
 # `target/release/` and `target/debug/`. Cargo profiles are workspace-

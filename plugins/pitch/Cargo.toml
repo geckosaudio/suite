@@ -40,3 +40,7 @@ truce-clap = { workspace = true, optional = true }
 truce-vst3 = { workspace = true, optional = true }
 truce-standalone = { workspace = true, features = ["gui"], optional = true }
 clap-sys = { version = "0.5", optional = true }
+
+[dev-dependencies]
+truce-test = { workspace = true }
+truce-driver = { workspace = true }
