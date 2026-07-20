@@ -19,20 +19,9 @@
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="screenshots/geckos-meter.png" align="right">
 
 Easy & precise metering for input monitoring, recording pristine sound
-
-</td>
-<td width="50%">
-
-![screenshot](screenshots/geckos-meter.png)
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 
@@ -40,20 +29,9 @@ Easy & precise metering for input monitoring, recording pristine sound
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="screenshots/geckos-tuner.png" align="right">
 
 A real-time vocal pitch tracking application that accurately detects and visualizes the pitch of your voice with minimal latency
-
-</td>
-<td width="50%">
-
-![screenshot](screenshots/geckos-tuner.png)
-
-</td>
-</tr>
-</table>
 
 ## Contributors
 
