@@ -16,7 +16,7 @@ lint:
 format-and-lint: format lint
 
 test:
-    cargo test --all-targets --all-features
+    cargo nextest run --all-targets --all-features
     cargo test --doc --all-features
 
 build:
