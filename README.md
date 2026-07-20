@@ -13,23 +13,23 @@
 
 ## Overview
 
-<div align="center">
-
 ### Meter
 
-</div>
+<div align="center">
 
-<img src="screenshots/geckos-meter.png" align="right">
+![Geckos Meter screenshot](screenshots/geckos-meter.png)
+
+</div>
 
 Easy & precise metering for input monitoring, recording pristine sound
 
-<div align="center">
-
 ### Tuner
 
-</div>
+<div align="center">
 
-<img src="screenshots/geckos-tuner.png" align="right">
+![Geckos Tuner screenshot](screenshots/geckos-tuner.png)
+
+</div>
 
 A real-time vocal pitch tracking application that accurately detects and visualizes the pitch of your voice with minimal latency
 
