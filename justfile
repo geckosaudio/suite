@@ -23,3 +23,7 @@ build:
     cargo truce build
 
 test-and-build: test build
+
+screenshot:
+    cargo truce screenshot -p geckos-audio-meter --out screenshots/geckos-meter.png
+    cargo truce screenshot -p geckos-audio-tuner --out screenshots/geckos-tuner.png

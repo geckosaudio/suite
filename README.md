@@ -11,6 +11,50 @@
 
 </div>
 
+## Overview
+
+<div align="center">
+
+### Meter
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+Easy & precise metering for input monitoring, recording pristine sound
+
+</td>
+<td width="50%">
+
+![screenshot](screenshots/geckos-meter.png)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Tuner
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+A real-time vocal pitch tracking application that accurately detects and visualizes the pitch of your voice with minimal latency
+
+</td>
+<td width="50%">
+
+![screenshot](screenshots/geckos-tuner.png)
+
+</td>
+</tr>
+</table>
+
 ## Contributors
 
 [![geckosaudio/plugins contributors](https://shieldcn.dev/contributors/geckosaudio/plugins.svg?title=false&preset=transparent&mode=dark&border=false)](https://github.com/geckosaudio/plugins/graphs/contributors)
