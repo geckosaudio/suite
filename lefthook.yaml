@@ -1,11 +1,11 @@
 pre-commit:
-  commands:
-    lint-and-format:
-      glob: "*.{rs,toml}"
-      run: just format-and-lint
+  jobs:
+    - run: just format-and-lint
+      glob:
+        - "**/*.{rs}"
+        - "**/*.{toml}"
       stage_fixed: true
 
 pre-push:
-  commands:
-    test-and-build:
-      run: just test-and-build
+  jobs:
+    - run: just test-and-build
